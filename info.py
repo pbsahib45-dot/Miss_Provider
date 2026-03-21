@@ -31,7 +31,7 @@ INDEX_CAPTION = bool(environ.get('SAVE_CAPTION', True)) # Save caption db when i
 #Making it false will not save caption in db SO you can save some storage space
 
 
-PICS = (environ.get('PICS', 'https://graph.org/file/e6253dab7bf95abc521b1-c834bd1f3ff5cef253.jpg')).split()  # Sample pic
+PICS = (environ.get('PICS', 'https://files.catbox.moe/v7gyev.jpg')).split()  # Sample pic
 NOR_IMG = environ.get("NOR_IMG", "https://graph.org/file/e20b5fdaf217252964202.jpg")
 MELCOW_PHOTO = environ.get("MELCOW_PHOTO", "https://graph.org/file/56b5deb73f3b132e2bb73.jpg")
 SPELL_IMG = environ.get("SPELL_IMG", "https://graph.org/file/13702ae26fb05df52667c.jpg")
@@ -41,8 +41,8 @@ FSUB_PICS = (environ.get('FSUB_PICS', 'https://graph.org/file/7478ff3eac37f4329c
 # ============================
 # Admin, Channels & Users Configuration
 # ============================
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7169497576 8165892487').split()] # Replace with the actual admin ID(s) to add
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002880915492').split()]  # Channel id for auto indexing (make sure bot is admin)
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5193286986').split()] # Replace with the actual admin ID(s) to add
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1003656099780').split()]  # Channel id for auto indexing (make sure bot is admin)
 
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1003723046443'))  # Log channel id (make sure bot is admin)
 BIN_CHANNEL = int(environ.get('BIN_CHANNEL', '-1003881168706'))  # Bin channel id (make sure bot is admin)
@@ -73,8 +73,8 @@ STAR_PREMIUM_PLANS = {
 # ============================
 # MongoDB Configuration
 # ============================
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Music1:Music1@music1.mhgnlcp.mongodb.net/?retryWrites=true&w=majority&appName=Music1")  # MongoDB URI But Dont Use Its Not Working And Banned Words
-DATABASE_NAME = environ.get('DATABASE_NAME', "Music1") # Database name (default: cluster)
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Filmygram47:Filmygram47@filmygram47.uuqstsj.mongodb.net/?appName=Filmygram47")  # MongoDB URI But Dont Use Its Not Working And Banned Words
+DATABASE_NAME = environ.get('DATABASE_NAME', "Filmygram47") # Database name (default: cluster)
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'dreamcinezone_files') # Collection name (default: dreamcinezone_files)
 
 # If MULTIPLE_DB Is True Then Fill DATABASE_URI2 Value Else You Will Get Error.
@@ -106,13 +106,13 @@ TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/howtoopenlinks44/10")   # T
 
 # Verification (Must Fill All Veriables. Else You Got Error
 SHORTENER_API = environ.get("SHORTENER_API", "77abe6a44fae06cb15acc5c7fe09d3d8483dcb19") # Shortener API key
-SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", "omegalinks.in") # Shortener website
+SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", "nowshort.com") # Shortener website
 
-SHORTENER_API2 = environ.get("SHORTENER_API2", "a7ac9b3012c67d7491414cf272d82593c75f6cbb")  # Shortener API key for second website
-SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", "omegalinks.in") # Shortener website for second website
+SHORTENER_API2 = environ.get("SHORTENER_API2", "77abe6a44fae06cb15acc5c7fe09d3d8483dcb19")  # Shortener API key for second website
+SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", "nowshort.com") # Shortener website for second website
 
-SHORTENER_API3 = environ.get("SHORTENER_API3", "a7ac9b3012c67d7491414cf272d82593c75f6cbb")  
-SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", "http://NowShort.com") # Shortener website for third website
+SHORTENER_API3 = environ.get("SHORTENER_API3", "77abe6a44fae06cb15acc5c7fe09d3d8483dcb19")  
+SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", "nowshort.com") # Shortener website for third website
 
 TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "1200")) # Time gap for two-step verification in seconds (default: 20 minutes)
 THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "54000"))    
