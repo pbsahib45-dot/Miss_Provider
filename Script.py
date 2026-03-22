@@ -225,19 +225,21 @@ Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
 
     
     MOVIE_UPDATE_NOTIFY_TXT = """
-</b><a href={poster_url}>📥</a><a href={imdb_url}>New {tag} Added</a></b>
+</b><a href="{poster_url}">📥</a><a href="{imdb_url}">ɴᴇᴡ {tag} ᴀᴅᴅᴇᴅ</a></b>
 
-<blockquote>✨ ᴛɪᴛʟᴇ : <code>{filename}</code>
+<blockquote>
+✨ ᴛɪᴛʟᴇ : <code>{filename}</code>
+[ᴛᴀᴘ ᴛᴏ ᴄᴏᴘʏ ᴛʜᴇ ᴍᴏᴠɪᴇ ɴᴀᴍᴇ]
 
-🎭 ɢᴇɴʀᴇs : <b>{genres}</b>
-📺 ᴏᴛᴛ        : <b>{ott}</b>
+🎭 ɢᴇɴʀᴇꜱ : <b>{genres}</b>
+📺 ᴏᴛᴛ : <b>{ott}</b>
 🎞️ ǫᴜᴀʟɪᴛʏ : <b>{quality}</b>
-🎧 ᴀᴜᴅɪᴏ    : <b>{language}</b>
-🔥 ʀᴀᴛɪɴɢ   : <b>{rating}</b>
+🎧 ᴀᴜᴅɪᴏ : <b>{language}</b>
+🔥 ʀᴀᴛɪɴɢ : <b>{rating}</b>
 {episodes}
 </blockquote>
 
-🔍 <b>Sᴇᴀʀᴄʜ →</b> {search_link}
+🔍 <b>ᴍᴏᴠɪᴇ ʀᴇǫᴜᴇꜱᴛ ʜᴇʀᴇ →</b> <a href="https://t.me/filmygram47">ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>
 """
 
 
