@@ -96,10 +96,10 @@ async def pm_text(bot, message):
             await message.reply_text(
                 text=(
                     f"<b>🙋 ʜᴇʏ {user} 😍 ,\n\n"
-                    "ʏᴏᴜ ᴄᴀɴ sᴇᴀʀᴄʜ 🕵 ʏᴏᴜʀ ғᴀᴠᴏʀɪᴛᴇ ᴍᴏᴠɪᴇs/sᴇʀɪᴇs ᴏɴʟʏ ⚝ ᴍɪss ᴘʀᴏᴠɪᴅᴇʀ ʀᴇǫᴜᴇsᴛ ⚝ ᴋɪɴᴅʟʏ ʀᴇǫᴜᴇsᴛ ʜᴇʀᴇ.\n\n"
+                    "ʏᴏᴜ ᴄᴀɴ sᴇᴀʀᴄʜ 🕵 ʏᴏᴜʀ ғᴀᴠᴏʀɪᴛᴇ ᴍᴏᴠɪᴇs/sᴇʀɪᴇs ᴏɴʟʏ ⚝ FILMY GRAM ⚝ ᴋɪɴᴅʟʏ ʀᴇǫᴜᴇsᴛ ʜᴇʀᴇ.\n\n"
                     "<blockquote>"
-                    "आप अपने पसंदीदा मूवीज़/सीरीज़ की खोज कर सकते हैं 🕵 ⚝ ᴍɪss ᴘʀᴏᴠɪᴅᴇʀ ʀᴇǫᴜᴇsᴛ ⚝ कृपया यहाँ अनुरोध करें।\n\n"
-                    "আপনি আপনার প্রিয় মুভি/সিরিজ সার্চ করতে পারেন ⚝ ᴍɪss ᴘʀᴏᴠɪᴅᴇʀ ʀᴇǫᴜᴇsᴛ ⚝ অনুগ্রহ করে এখানে অনুরোধ করুন।"
+                    "आप अपने पसंदीदा मूवीज़/सीरीज़ की खोज कर सकते हैं 🕵 ⚝ FILMY GRAM ⚝ कृपया यहाँ अनुरोध करें।\n\n"
+                    "আপনি আপনার প্রিয় মুভি/সিরিজ সার্চ করতে পারেন ⚝ FILMY GRAM ⚝ অনুগ্রহ করে এখানে অনুরোধ করুন।"
                     "</blockquote>"
                 ), reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("⚝ ᴍɪss ᴘʀᴏᴠɪᴅᴇʀ ʀᴇǫᴜᴇsᴛ ⚝", url=GRP_LNK)]]))
             await bot.send_message(chat_id=LOG_CHANNEL,
@@ -1597,9 +1597,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "group":
         buttons = [[
-                InlineKeyboardButton('⚝ ᴍɪss ᴘʀᴏᴠɪᴅᴇʀ ʀᴇǫᴜᴇsᴛ ⚝', url=f'https://t.me/MissProviderRequest')
+                InlineKeyboardButton('⚝ FILMY GRAM ⚝', url=f'https://t.me/filmygram47')
             ],[ 
-                InlineKeyboardButton('⌜ ᴍɪss ᴘʀᴏᴠɪᴅᴇʀ sᴜᴘᴘᴏʀᴛ ⌟', url=f'https://t.me/MissProviderChat')
+                InlineKeyboardButton('⌜ sᴜᴘᴘᴏʀᴛ GROUP ⌟', url=f'https://t.me/Helpingxgram')
             ],[
                 InlineKeyboardButton('⇍ ʙᴀᴄᴋ ⇏', callback_data='start')
             ]]
@@ -1620,9 +1620,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "channel":
         buttons = [[
-                InlineKeyboardButton('˹ ᴍɪss ᴘʀᴏᴠɪᴅᴇʀ ᴜᴘᴅᴀᴛᴇ ˼', url=f'https://t.me/MissProviderUpdate')
+                InlineKeyboardButton('˹ UPDATE FILMX ˼', url=f'https://t.me/updatefilmx')
             ],[ 
-                InlineKeyboardButton('˹ ᴇᴠᴇʀɢʀᴇᴇɴ ʜᴜʙ ˼', url=f'https://t.me/EvergreenHubOfficial')
+                InlineKeyboardButton('˹ BACKUP CHANNEL˼', url=f'https://t.me/+sMqyygg-Y4Y2ZWU9')
             ],[
                 InlineKeyboardButton('⇍ ʙᴀᴄᴋ ⇏', callback_data='start')
             ]]
@@ -1677,7 +1677,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "source":
         buttons = [[
-            InlineKeyboardButton('˹ 𝚴 𝐎 𝐁 𝚰 𝐓 𝚲 ˼', url='https://telegram.dog/NobtaBhaskar'),
+            InlineKeyboardButton('˹ SUPPORT ˼', url='https://telegram.dog/jox_444'),
             InlineKeyboardButton('⇦ Back', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
