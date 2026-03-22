@@ -108,14 +108,14 @@ TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/howtoopenlinks44/10")   # T
 SHORTENER_API = environ.get("SHORTENER_API", "77abe6a44fae06cb15acc5c7fe09d3d8483dcb19") # Shortener API key
 SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", "nowshort.com") # Shortener website
 
-SHORTENER_API2 = environ.get("SHORTENER_API2", "77abe6a44fae06cb15acc5c7fe09d3d8483dcb19")  # Shortener API key for second website
-SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", "nowshort.com") # Shortener website for second website
+SHORTENER_API2 = environ.get("SHORTENER_API2", "1551160dec15ae63effce9dd5d22f3e498169512")  # Shortener API key for second website
+SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", "liteshort.com") # Shortener website for second website
 
-SHORTENER_API3 = environ.get("SHORTENER_API3", "77abe6a44fae06cb15acc5c7fe09d3d8483dcb19")  
-SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", "nowshort.com") # Shortener website for third website
+SHORTENER_API3 = environ.get("SHORTENER_API3", "138d103dea5c69ef580fe86cd8e5a6ae439abf59")  
+SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", "cpmshort.com") # Shortener website for third website
 
-TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "14400")) # Time gap for two-step verification in seconds (default: 20 minutes)
-THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "54000"))    
+TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "7200")) # Time gap for two-step verification in seconds (default: 20 minutes)
+THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "7200"))    
 
 # ============================
 # Channel & Group Links Configuration
