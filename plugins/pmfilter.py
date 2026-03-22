@@ -101,7 +101,7 @@ async def pm_text(bot, message):
                     "आप अपने पसंदीदा मूवीज़/सीरीज़ की खोज कर सकते हैं 🕵 ⚝ FILMY GRAM ⚝ कृपया यहाँ अनुरोध करें।\n\n"
                     "আপনি আপনার প্রিয় মুভি/সিরিজ সার্চ করতে পারেন ⚝ FILMY GRAM ⚝ অনুগ্রহ করে এখানে অনুরোধ করুন।"
                     "</blockquote>"
-                ), reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("⚝ ᴍɪss ᴘʀᴏᴠɪᴅᴇʀ ʀᴇǫᴜᴇsᴛ ⚝", url=GRP_LNK)]]))
+                ), reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("⚝ FILMY GRAM ⚝", url=GRP_LNK)]]))
             await bot.send_message(chat_id=LOG_CHANNEL,
                                    text=(
                                        f"<b>#𝐏𝐌_𝐌𝐒𝐆\n\n"
