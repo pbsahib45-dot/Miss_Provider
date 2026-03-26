@@ -102,15 +102,20 @@ if __name__ == '__main__':
 
 import os
 from aiohttp import web
-import threading
+
+async def start_all():
+    await dreamxbotz_start()
+
+app = web.Application()
 
 async def handle(request):
-    return web.Response(text="Bot is running")
+    return web.Response(text="Bot running")
 
-def run_web():
-    app = web.Application()
-    app.router.add_get("/", handle)
+app.router.add_get("/", handle)
+
+if __name__ == "__main__":
+    import asyncio
     port = int(os.environ.get("PORT", 10000))
+    loop = asyncio.get_event_loop()
+    loop.create_task(start_all())
     web.run_app(app, host="0.0.0.0", port=port)
-
-threading.Thread(target=run_web).start()
